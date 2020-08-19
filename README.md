@@ -1,2 +1,2 @@
-# bitsrap
+# bitstrap
 a css library
