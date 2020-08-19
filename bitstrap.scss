@@ -6,6 +6,86 @@
 
 // Tables
 
+// Table color variables
+$table-header-background-color: #E4E4E4;
+$table-border-color: #D3D3D3;
+$table-row-background-color: #F4F4F4;
+
+// Table Styles
+table {
+    // Common table styles
+    &.table,
+    &.table-border,
+    &.table-border-hor,
+    &.table-border-ver,
+    &.table-stripe,
+    &.table-stripe-border,
+    &.table-stripe-border-hor,
+    &.table-stripe-border-ver {
+        border-collapse: collapse;
+        border: 1px solid $table-border-color;
+        tr {
+            &:first-child {
+                border-style: solid;
+                border-color: $table-border-color;
+                border-width: 1px 1px 2px 1px;
+            }
+            th {
+                background: $table-header-background-color;
+                padding: 16px;
+            }
+            td {
+                padding: 16px;
+            }
+        }
+    }
+
+    // Table border styles
+    &.table-border,
+    &.table-stripe-border
+     {
+        tr {
+            th,
+            td {
+                border: 1px solid $table-border-color;
+            }
+        }
+
+        &-hor {
+            tr {
+                border-bottom: 1px solid $table-border-color;
+                th,
+                td {
+                    &:first-child {
+                        border-right: 1px solid $table-border-color;
+                    }
+                }
+        
+            }
+        }
+
+        &-ver {
+            tr {
+                th,
+                td {
+                    border-right: 1px solid $table-border-color;
+                }
+            }
+        }
+    }
+
+    // Table stripe styles
+    &.table-stripe,
+    &.table-stripe-border,
+    &.table-stripe-border-hor,
+    &.table-stripe-border-ver {
+        tr {
+            &:nth-child(odd) {
+                background-color: $table-row-background-color;
+            }
+        }
+    }
+}
 // Navigation
 
 // Cards
