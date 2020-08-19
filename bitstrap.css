@@ -15,8 +15,68 @@
   background: #8433f4;
 }
 
-.btn-yellow {
+.btn-purple-2 {
+  background: #762edb;
+}
+
+.btn-purple-bg-1 {
+  background: #f5f4f8;
+}
+
+.btn-purple-bg-2 {
+  background: #f7f3fd;
+}
+
+.btn-red-1 {
+  background: #ee1836;
+}
+
+.btn-red-2 {
+  background: #d41530;
+}
+
+.btn-yellow-1 {
   background: #f6a609;
+}
+
+.btn-yellow-2 {
+  background: #db9408;
+}
+
+.btn-green-1 {
+  background: #2ac769;
+}
+
+.btn-green-2 {
+  background: #25ad5b;
+}
+
+.btn-grey-1 {
+  background: #4e4c52;
+}
+
+.btn-grey-2 {
+  background: #353438;
+}
+
+.btn-white-1 {
+  background: #ffffff;
+}
+
+.btn-white-2 {
+  background: #f4f4f4;
+}
+
+.btn-white-3 {
+  background: #e4e4e4;
+}
+
+.btn-line-1 {
+  background: #d3d3d3;
+}
+
+.btn-line-2 {
+  background: #77737d;
 }
 
 table.table, table.table-border, table.table-border-hor, table.table-border-ver, table.table-stripe, table.table-stripe-border, table.table-stripe-border-hor, table.table-stripe-border-ver {
