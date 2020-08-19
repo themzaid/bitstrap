@@ -32,10 +32,12 @@ $line-2: #77737d;
   color: white;
   cursor: pointer;
   outline: none;
-}
-
-.btn-primary {
-  background: #8433f4;
+  &-primary {
+    background: $purple-1;
+  }
+  &-yellow {
+    background: $yellow-1;
+  }
 }
 
 // Input Feilds
