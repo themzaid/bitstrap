@@ -95,11 +95,7 @@ table {
   &.table,
   &.table-border,
   &.table-border-hor,
-  &.table-border-ver,
-  &.table-stripe,
-  &.table-stripe-border,
-  &.table-stripe-border-hor,
-  &.table-stripe-border-ver {
+  &.table-border-ver {
     border-collapse: collapse;
     border: 1px solid $line-1;
     tr {
@@ -119,8 +115,7 @@ table {
   }
 
   // Table border styles
-  &.table-border,
-  &.table-stripe-border {
+  &.table-border {
     tr {
       th,
       td {
@@ -149,16 +144,13 @@ table {
       }
     }
   }
+}
 
-  // Table stripe styles
-  &.table-stripe,
-  &.table-stripe-border,
-  &.table-stripe-border-hor,
-  &.table-stripe-border-ver {
-    tr {
-      &:nth-child(odd) {
-        background-color: $white-2;
-      }
+// Table stripe styles
+.stripe {
+  tr {
+    &:nth-child(odd) {
+      background-color: $white-2;
     }
   }
 }
