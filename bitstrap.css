@@ -1,3 +1,7 @@
+body {
+  font-family: "Inter";
+}
+
 .btn {
   padding: 14px 25px;
   font-weight: bold;
@@ -77,6 +81,23 @@
 
 .btn-line-2 {
   background: #77737d;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-group label {
+  font-size: 13px;
+  color: #4e4c52;
 }
 
 table.table, table.table-border, table.table-border-hor, table.table-border-ver, table.table-stripe, table.table-stripe-border, table.table-stripe-border-hor, table.table-stripe-border-ver {

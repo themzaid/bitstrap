@@ -1,5 +1,9 @@
 // bitstrap.scss
 
+body {
+  font-family: "Inter";
+}
+
 // Variables
 
 $purple-1: #8433f4;
@@ -86,6 +90,17 @@ $line-2: #77737d;
 }
 
 // Input Feilds
+
+.form-group {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  label {
+    font-size: 13px;
+    color: $grey-1;
+  }
+}
 
 // Tables
 
