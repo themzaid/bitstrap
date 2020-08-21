@@ -134,8 +134,8 @@ body {
 }
 
 .form-group input:focus {
-  -webkit-box-shadow: 0px 0px 0px 3px rgba(131, 51, 244, 0.5);
-          box-shadow: 0px 0px 0px 3px rgba(131, 51, 244, 0.5);
+  -webkit-box-shadow: 0px 0px 0px 3px #8433f488;
+          box-shadow: 0px 0px 0px 3px #8433f488;
   border: 1px solid #8433f4;
 }
 

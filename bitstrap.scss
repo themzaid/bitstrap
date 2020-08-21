@@ -23,6 +23,7 @@ $white-2: #f4f4f4;
 $white-3: #e4e4e4;
 $line-1: #d3d3d3;
 $line-2: #77737d;
+$purple-outline: 0px 0px 0px 3px #8433f488;
 
 // Buttons
 .btn {
@@ -117,7 +118,7 @@ $line-2: #77737d;
       letter-spacing: 0.3px;
     }
     &:focus {
-      box-shadow: 0px 0px 0px 3px rgba(131, 51, 244, 0.5);
+      box-shadow: $purple-outline;
       border: 1px solid $purple-1;
       + {
         label {
