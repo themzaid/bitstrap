@@ -95,7 +95,7 @@ $line-2: #77737d;
   width: 100%;
   max-width: 400px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   label {
     font-size: 13px;
     color: $grey-1;
@@ -119,14 +119,6 @@ $line-2: #77737d;
     &:focus {
       box-shadow: 0px 0px 0px 3px rgba(131, 51, 244, 0.5);
       border: 1px solid $purple-1;
-      + {
-        label {
-          color: $purple-1;
-        }
-      }
-    }
-    &:valid {
-      // border: 1px solid $purple-1;
       + {
         label {
           color: $purple-1;

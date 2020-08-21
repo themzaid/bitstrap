@@ -90,9 +90,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
 }
 
 .form-group label {
@@ -140,10 +140,6 @@ body {
 }
 
 .form-group input:focus + label {
-  color: #8433f4;
-}
-
-.form-group input:valid + label {
   color: #8433f4;
 }
 
