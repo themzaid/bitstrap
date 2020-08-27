@@ -83,7 +83,7 @@ body {
   background: #77737d;
 }
 
-.form-group {
+.form .form-group {
   width: 100%;
   max-width: 400px;
   display: -webkit-box;
@@ -95,7 +95,7 @@ body {
           flex-direction: column-reverse;
 }
 
-.form-group label {
+.form .form-group label {
   font-size: 13px;
   color: #4e4c52;
   font-weight: 500;
@@ -103,11 +103,11 @@ body {
   margin-bottom: 3px;
 }
 
-.form-group label:focus {
+.form .form-group label:focus {
   color: #8433f4;
 }
 
-.form-group input {
+.form .form-group input {
   padding: 10px 12px;
   font-size: 15px;
   border-radius: 8px;
@@ -117,30 +117,86 @@ body {
   transition: 0.15s ease-out;
 }
 
-.form-group input::-webkit-input-placeholder {
+.form .form-group input::-webkit-input-placeholder {
   letter-spacing: 0.3px;
 }
 
-.form-group input:-ms-input-placeholder {
+.form .form-group input:-ms-input-placeholder {
   letter-spacing: 0.3px;
 }
 
-.form-group input::-ms-input-placeholder {
+.form .form-group input::-ms-input-placeholder {
   letter-spacing: 0.3px;
 }
 
-.form-group input::placeholder {
+.form .form-group input::placeholder {
   letter-spacing: 0.3px;
 }
 
-.form-group input:focus {
+.form .form-group input:focus {
   -webkit-box-shadow: 0px 0px 0px 3px #8433f488;
           box-shadow: 0px 0px 0px 3px #8433f488;
   border: 1px solid #8433f4;
 }
 
-.form-group input:focus + label {
+.form .form-group input:focus + label {
   color: #8433f4;
+}
+
+.form-red .form-group label:focus {
+  color: #ee1836;
+}
+
+.form-red .form-group input:focus {
+  -webkit-box-shadow: 0px 0px 0px 3px #ee183688;
+          box-shadow: 0px 0px 0px 3px #ee183688;
+  border: 1px solid #ee1836;
+}
+
+.form-red .form-group input:focus + label {
+  color: #ee1836;
+}
+
+.form-yellow .form-group label:focus {
+  color: #f6a609;
+}
+
+.form-yellow .form-group input:focus {
+  -webkit-box-shadow: 0px 0px 0px 3px #f6a60988;
+          box-shadow: 0px 0px 0px 3px #f6a60988;
+  border: 1px solid #f6a609;
+}
+
+.form-yellow .form-group input:focus + label {
+  color: #f6a609;
+}
+
+.form-green .form-group label:focus {
+  color: #2ac769;
+}
+
+.form-green .form-group input:focus {
+  -webkit-box-shadow: 0px 0px 0px 3px #2ac76988;
+          box-shadow: 0px 0px 0px 3px #2ac76988;
+  border: 1px solid #2ac769;
+}
+
+.form-green .form-group input:focus + label {
+  color: #2ac769;
+}
+
+.form-grey .form-group label:focus {
+  color: #4e4c52;
+}
+
+.form-grey .form-group input:focus {
+  -webkit-box-shadow: 0px 0px 0px 3px #4e4c5288;
+          box-shadow: 0px 0px 0px 3px #4e4c5288;
+  border: 1px solid #4e4c52;
+}
+
+.form-grey .form-group input:focus + label {
+  color: #4e4c52;
 }
 
 table.table, table.table-border, table.table-border-hor, table.table-border-ver, table.table-stripe, table.table-stripe-border, table.table-stripe-border-hor, table.table-stripe-border-ver {

@@ -24,6 +24,11 @@ $white-3: #e4e4e4;
 $line-1: #d3d3d3;
 $line-2: #77737d;
 $purple-outline: 0px 0px 0px 3px #8433f488;
+$red-outline: 0px 0px 0px 3px #ee183688;
+$yellow-outline: 0px 0px 0px 3px #f6a60988;
+$green-outline: 0px 0px 0px 3px #2ac76988;
+$grey-outline: 0px 0px 0px 3px #4e4c5288;
+
 
 // Buttons
 .btn {
@@ -92,37 +97,127 @@ $purple-outline: 0px 0px 0px 3px #8433f488;
 
 // Input Feilds
 
-.form-group {
-  width: 100%;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column-reverse;
-  label {
-    font-size: 13px;
-    color: $grey-1;
-    font-weight: 500;
-    margin-left: 2px;
-    margin-bottom: 3px;
-    &:focus {
-      color: $purple-1;
+.form{
+  .form-group {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    label {
+      font-size: 13px;
+      color: $grey-1;
+      font-weight: 500;
+      margin-left: 2px;
+      margin-bottom: 3px;
+      &:focus {
+        color: $purple-1;
+      }
+    }
+    input {
+      padding: 10px 12px;
+      font-size: 15px;
+      border-radius: 8px;
+      border: 1px solid $line-2;
+      outline: none;
+      transition: 0.15s ease-out;
+      &::placeholder {
+        letter-spacing: 0.3px;
+      }
+      &:focus {
+        box-shadow: $purple-outline;
+        border: 1px solid $purple-1;
+        + {
+          label {
+            color: $purple-1;
+          }
+        }
+      }
     }
   }
-  input {
-    padding: 10px 12px;
-    font-size: 15px;
-    border-radius: 8px;
-    border: 1px solid $line-2;
-    outline: none;
-    transition: 0.15s ease-out;
-    &::placeholder {
-      letter-spacing: 0.3px;
+}
+.form{
+  &-red{
+    .form-group {
+      label {
+        &:focus {
+          color: $red-1;
+        }
+      }
+      input {
+        &:focus {
+          box-shadow: $red-outline;
+          border: 1px solid $red-1;
+          + {
+            label {
+              color: $red-1;
+            }
+          }
+        }
+      }
     }
-    &:focus {
-      box-shadow: $purple-outline;
-      border: 1px solid $purple-1;
-      + {
-        label {
-          color: $purple-1;
+  }
+}
+.form{
+  &-yellow{
+    .form-group {
+      label {
+        &:focus {
+          color: $yellow-1;
+        }
+      }
+      input {
+        &:focus {
+          box-shadow: $yellow-outline;
+          border: 1px solid $yellow-1;
+          + {
+            label {
+              color: $yellow-1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.form{
+  &-green{
+    .form-group {
+      label {
+        &:focus {
+          color: $green-1;
+        }
+      }
+      input {
+        &:focus {
+          box-shadow: $green-outline;
+          border: 1px solid $green-1;
+          + {
+            label {
+              color: $green-1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.form{
+  &-grey{
+    .form-group {
+      label {
+        &:focus {
+          color: $grey-1;
+        }
+      }
+      input {
+        &:focus {
+          box-shadow: $grey-outline;
+          border: 1px solid $grey-1;
+          + {
+            label {
+              color: $grey-1;
+            }
+          }
         }
       }
     }
