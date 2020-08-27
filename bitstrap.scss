@@ -147,10 +147,12 @@ table {
 }
 
 // Table stripe styles
-.stripe {
-  tr {
-    &:nth-child(odd) {
-      background-color: $white-2;
+table {
+  &.table-stripe {
+    tr {
+      &:nth-child(odd) {
+        background-color: $white-2;
+      }
     }
   }
 }

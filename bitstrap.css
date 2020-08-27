@@ -118,7 +118,7 @@ table.table-border-ver tr td {
   border-right: 1px solid #d3d3d3;
 }
 
-.stripe tr:nth-child(odd) {
+table.table-stripe tr:nth-child(odd) {
   background-color: #f4f4f4;
 }
 /*# sourceMappingURL=bitstrap.css.map */
