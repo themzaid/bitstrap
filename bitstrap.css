@@ -221,12 +221,14 @@ body {
   margin-bottom: 30px;
 }
 
-img {
+.card-img {
   width: 100%;
   height: 162px;
+  background: #4e4c52;
+  border-radius: 7px 7px 0 0;
 }
 
-h1 {
+.card h1 {
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
@@ -237,7 +239,7 @@ h1 {
   margin: 0px;
 }
 
-.subtitle {
+.card-subtitle {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -248,7 +250,7 @@ h1 {
   margin: 0px;
 }
 
-.text {
+.card-text {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -259,7 +261,7 @@ h1 {
   margin: 0px;
 }
 
-a {
+.card a {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -270,7 +272,7 @@ a {
   padding: 0px 0px 10px 20px;
 }
 
-.caption {
+.card-caption {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -304,7 +306,7 @@ a {
   transition: 0.3s;
 }
 
-.cardtitle2 {
+.card-2-title {
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
@@ -317,7 +319,7 @@ a {
   border-bottom: 1px solid #8433f4;
 }
 
-.subtitle2 {
+.card-2-subtitle {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -328,7 +330,7 @@ a {
   margin: 0px;
 }
 
-.text2 {
+.card-2-text {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -340,7 +342,7 @@ a {
   border-bottom: 1px solid #8433f4;
 }
 
-.button2 {
+.card-2-btn {
   border: none;
   outline: 0;
   display: inline-block;
