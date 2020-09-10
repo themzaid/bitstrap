@@ -249,7 +249,7 @@ body {
     margin: 0px;
   }
 
-  .subtitle {
+  &-subtitle {
     font-weight: 500;
     font-size: 17px;
     line-height: 21px;
@@ -259,7 +259,7 @@ body {
     margin: 0px;
   }
 
-  .text {
+  &-text {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
@@ -279,7 +279,7 @@ body {
     padding: 0px 0px 10px 20px;
   }
 
-  .caption {
+  &-caption {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -288,24 +288,24 @@ body {
     padding: 0px 0px 20px 20px;
     color: line-2;
   }
+}
 
-  /* Card Type 2 CSS */
+/* Card Type 2 CSS */
 
-  .card-2 {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid $purple-1;
-    box-sizing: border-box;
-    border-radius: 8px;
-    width: 300px;
-    height: 246px;
-    left: 140px;
-    top: 302px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-  }
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $purple-1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 300px;
+  height: 246px;
+  left: 140px;
+  top: 302px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
 
-  .cardtitle2 {
+  &-title {
     font-weight: bold;
     font-size: 21px;
     line-height: 25px;
@@ -317,7 +317,7 @@ body {
     border-bottom: 1px solid $purple-1;
   }
 
-  .subtitle2 {
+  &-subtitle {
     font-weight: 500;
     font-size: 17px;
     line-height: 21px;
@@ -327,7 +327,7 @@ body {
     margin: 0px;
   }
 
-  .text2 {
+  &-text {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
@@ -338,41 +338,25 @@ body {
     border-bottom: 1px solid $purple-1;
   }
 
-  .button2 {
+  &-btn {
     border: none;
     outline: 0;
     display: inline-block;
 
-    color: $purple-1;
+    color: #8433f4;
     background-color: white;
     text-align: center;
     cursor: pointer;
     width: 100%;
 
+    font-family: Inter;
+    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
 
-    &-btn {
-      border: none;
-      outline: 0;
-      display: inline-block;
-
-      color: #8433f4;
-      background-color: white;
-      text-align: center;
-      cursor: pointer;
-      width: 100%;
-
-      font-family: Inter;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 17px;
-
-      padding: 14px 126px 14px 126px;
-      letter-spacing: 0.3px;
-      margin: 0px;
-    }
+    padding: 14px 126px 14px 126px;
+    letter-spacing: 0.3px;
+    margin: 0px;
   }
 }

@@ -220,7 +220,6 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   margin-bottom: 30px;
-  /* Card Type 2 CSS */
 }
 
 .card-img {
@@ -239,7 +238,7 @@ body {
   margin: 0px;
 }
 
-.card .subtitle {
+.card-subtitle {
   font-weight: 500;
   font-size: 17px;
   line-height: 21px;
@@ -248,7 +247,7 @@ body {
   margin: 0px;
 }
 
-.card .text {
+.card-text {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -266,7 +265,7 @@ body {
   padding: 0px 0px 10px 20px;
 }
 
-.card .caption {
+.card-caption {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -275,7 +274,8 @@ body {
   color: line-2;
 }
 
-.card .card-2 {
+/* Card Type 2 CSS */
+.card-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,7 +297,7 @@ body {
   transition: 0.3s;
 }
 
-.card .cardtitle2 {
+.card-2-title {
   font-weight: bold;
   font-size: 21px;
   line-height: 25px;
@@ -308,7 +308,7 @@ body {
   border-bottom: 1px solid #8433f4;
 }
 
-.card .subtitle2 {
+.card-2-subtitle {
   font-weight: 500;
   font-size: 17px;
   line-height: 21px;
@@ -317,7 +317,7 @@ body {
   margin: 0px;
 }
 
-.card .text2 {
+.card-2-text {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -327,21 +327,7 @@ body {
   border-bottom: 1px solid #8433f4;
 }
 
-.card .button2 {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  color: #8433f4;
-  background-color: white;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.card .button2-btn {
+.card-2-btn {
   border: none;
   outline: 0;
   display: inline-block;
