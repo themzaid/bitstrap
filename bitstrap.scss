@@ -521,7 +521,7 @@ table {
       flex-direction: row;
     }
 
-    .navbar-menu div {
+    .navbar-menu .navbar-menu-lines {
       display: none;
       width: 20px;
       height: 2px;
@@ -565,7 +565,7 @@ table {
         margin: auto;
       }
 
-      .navbar-menu div {
+      .navbar-menu .navbar-menu-lines {
         display: block;
       }
 
@@ -606,16 +606,13 @@ table {
         ul {
           padding: 0;
 
-          hr {
-            position: static;
-            width: 100;
-            margin: 20px 40px 20px 0;
+          li {
+            padding: 0;
+            padding-top: 15px;
+            margin: 15px 0px;
+            display: block;
+            border-top: 1px solid #77737d;
           }
-        }
-        li {
-          padding: 0;
-          margin: 15px 0px;
-          display: block;
         }
       }
     }

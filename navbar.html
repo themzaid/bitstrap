@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Navigation Bar</title>
+
+    <link rel="stylesheet" href="bitstrap.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class= "container-desktop">
+        <div class="navbar-basic">
+
+          <div class="navbar-header">
+            <div class="navbar-menu" onclick="show()">
+              <div class="navbar-menu-lines"></div>
+              <div class="navbar-menu-lines"></div>
+            </div>
+  
+            <span class="navbar-logo">LOGO</span> 
+          </div>
+
+          <nav id="navbar-links">
+            <input type="text" class="navbar-textbox">
+            
+            <ul>
+              <li><a href="#one">One</a></li>
+              
+              <li><a href="#two">Two</a></li>
+              
+              <li><a href="#three">Three</a></li>
+            </ul>
+          </nav>
+
+          <div onmouseover="hideLinks()" onmouseout="showLinks()" class="navbar-searchbox">
+            <input id="navbar-textbox" type="text">
+            <button id="navbar-searchbtn">Search</button>
+          </div>
+
+        </div>
+      </div>
+
+    <script>
+      function hideLinks() {
+        var x = document.getElementById("navbar-links");
+        x.style.display = "none";
+      }
+
+      function showLinks() {
+        var x = document.getElementById("navbar-links");
+        x.style.display = "block";
+      }
+
+      function show() {
+        var x = document.getElementById("navbar-links");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+        
+      }
+    </script>
+
+  </body>
+</html>
