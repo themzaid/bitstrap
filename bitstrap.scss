@@ -215,13 +215,14 @@ table {
 body {
   display: flex;
   justify-content: center;
- 
+  font-family: Inter;
+
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #8433f4;
+  border: 1px solid $purple-1;
   box-sizing: border-box;
   border-radius: 8px;
   width: 300px;
@@ -239,59 +240,49 @@ img {
 }
 
 h1 {
-  font-family: Inter;
-  font-style: normal;
   font-weight: bold;
   font-size: 21px;
   line-height: 25px;
 
   
-  color: #4e4c52;
+  color: $grey-1;
   padding: 20px 0px 10px 20px;
   margin : 0px;
  
 }
 
 .subtitle {
-  font-family: Inter;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 21px;
 
-  color: #4e4c52;
+  color: $grey-1;
   padding: 0px 0px 10px 20px;
   margin: 0px;
 }
 
 .text {
-  font-family: Inter;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
 
-  color: #4e4c52;
+  color: $grey-1;
   padding: 0px 20px 10px 20px;
   margin: 0px;
 }
 
 a {
-  font-family: Inter;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
 
-  color: #8433f4;
+  color: $purple-1;
   padding:0px 0px 10px 20px;
  
 }
 
 .caption{
-  font-family: Inter;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -299,7 +290,7 @@ a {
 
   letter-spacing: 0.3px;
   padding: 0px 0px 20px 20px;
-  color: #77737D;
+  color: line-2;
 }
 
 
@@ -308,7 +299,7 @@ a {
 .card-2 {
   display: flex;
   flex-direction: column;
-  border: 1px solid #8433f4;
+  border: 1px solid $purple-1;
   box-sizing: border-box;
   border-radius: 8px;
   width: 300px;
@@ -320,43 +311,40 @@ a {
 }
 
 .cardtitle2{
-  font-family: Inter;
-  font-style: normal;
+
   font-weight: bold;
   font-size: 21px;
   line-height: 25px;
 
   /* Grey - 1 */
-  color: #4e4c52;
+  color: $grey-1;
   padding: 20px 0px 20px 20px;
   margin : 0px;
-  border-bottom: 1px solid #8433F4;
+  border-bottom: 1px solid $purple-1;
  
 }
 
 .subtitle2 {
-  font-family: Inter;
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 17px;
   line-height: 21px;
 
-  color: #4e4c52;
+  color: $grey-1;
   padding: 20px 0px 10px 20px;
   margin: 0px;
 }
 
 .text2 {
-  font-family: Inter;
-  font-style: normal;
+  
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
 
-  color: #4e4c52;
+  color: $grey-1;
   padding: 0px 20px 20px 20px;
   margin: 0px;
-  border-bottom:1px solid #8433F4;
+  border-bottom:1px solid $purple-1;
 }
 
 .button2 {
@@ -364,14 +352,13 @@ a {
   outline: 0;
   display: inline-block;
  
-  color: #8433F4;
+  color: $purple-1;
   background-color: white;
   text-align: center;
   cursor: pointer;
   width: 100%;
 
-font-family: Inter;
-font-style: normal;
+
 font-weight: bold;
 font-size: 14px;
 line-height: 17px;
