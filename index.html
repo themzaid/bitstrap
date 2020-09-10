@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -39,5 +39,87 @@
         <button class="card-2-btn">Button</button>
       </div>
     </div>
+
+
+
+    <div class="container">
+      <div class= "container-desktop">
+        <div class="navbar-basic">
+
+          <div class="navbar-header">
+            <div class="navbar-menu" onclick="show()">
+              <div></div>
+              <div></div>
+            </div>
+  
+            <span class="navbar-logo">LOGO</span> 
+          </div>
+
+          <nav id="navbar-links">
+            <input type="text" class="navbar-textbox">
+            <hr>
+            <ul>
+              <li><a href="#one">One</a></li>
+              <hr>
+              <li><a href="#two">Two</a></li>
+              <hr>
+              <li><a href="#three">Three</a></li>
+            </ul>
+          </nav>
+
+          <div onmouseover="hideLinks()" onmouseout="showLinks()" class="navbar-searchbox">
+            <input id="navbar-textbox" type="text">
+            <button id="navbar-searchbtn">Search</button>
+          </div>
+
+        </div>
+      </div>
+  
+      <!-- <div class="container-mobile">
+        <div class="navbar-basic">
+          <div class="navbar-header">
+            <div class="navbar-menu">
+              <div></div>
+              <div></div>
+            </div>
+            <span class="navbar-logo">LOGO</span>
+          </div>
+          <nav>
+            <input type="text" class="navbar-textbox">
+            <hr>
+            <ul>
+              <li><a href="#one">One</a></li>
+              <hr>
+              <li><a href="#two">Two</a></li>
+              <hr>
+              <li><a href="#three">Three</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div> -->
+
+    <script>
+      function hideLinks() {
+        var x = document.getElementById("navbar-links");
+        x.style.display = "none";
+      }
+
+      function showLinks() {
+        var x = document.getElementById("navbar-links");
+        x.style.display = "block";
+      }
+
+      function show() {
+        var x = document.getElementById("navbar-links");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+        
+      }
+    </script>
+
   </body>
 </html>
