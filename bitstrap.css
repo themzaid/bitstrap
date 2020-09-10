@@ -196,6 +196,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: Inter;
 }
 
 .card {
@@ -219,6 +220,7 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   margin-bottom: 30px;
+  /* Card Type 2 CSS */
 }
 
 .card-img {
@@ -229,8 +231,6 @@ body {
 }
 
 .card h1 {
-  font-family: Inter;
-  font-style: normal;
   font-weight: bold;
   font-size: 21px;
   line-height: 25px;
@@ -239,9 +239,7 @@ body {
   margin: 0px;
 }
 
-.card-subtitle {
-  font-family: Inter;
-  font-style: normal;
+.card .subtitle {
   font-weight: 500;
   font-size: 17px;
   line-height: 21px;
@@ -250,9 +248,7 @@ body {
   margin: 0px;
 }
 
-.card-text {
-  font-family: Inter;
-  font-style: normal;
+.card .text {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -262,8 +258,6 @@ body {
 }
 
 .card a {
-  font-family: Inter;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -272,19 +266,16 @@ body {
   padding: 0px 0px 10px 20px;
 }
 
-.card-caption {
-  font-family: Inter;
-  font-style: normal;
+.card .caption {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.3px;
   padding: 0px 0px 20px 20px;
-  color: #77737d;
+  color: line-2;
 }
 
-/* Card Type 2 CSS */
-.card-2 {
+.card .card-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -306,9 +297,7 @@ body {
   transition: 0.3s;
 }
 
-.card-2-title {
-  font-family: Inter;
-  font-style: normal;
+.card .cardtitle2 {
   font-weight: bold;
   font-size: 21px;
   line-height: 25px;
@@ -319,9 +308,7 @@ body {
   border-bottom: 1px solid #8433f4;
 }
 
-.card-2-subtitle {
-  font-family: Inter;
-  font-style: normal;
+.card .subtitle2 {
   font-weight: 500;
   font-size: 17px;
   line-height: 21px;
@@ -330,9 +317,7 @@ body {
   margin: 0px;
 }
 
-.card-2-text {
-  font-family: Inter;
-  font-style: normal;
+.card .text2 {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -342,7 +327,21 @@ body {
   border-bottom: 1px solid #8433f4;
 }
 
-.card-2-btn {
+.card .button2 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  color: #8433f4;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.card .button2-btn {
   border: none;
   outline: 0;
   display: inline-block;
