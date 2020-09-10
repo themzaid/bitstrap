@@ -296,3 +296,148 @@ table {
 // Navigation
 
 // Cards
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $purple-1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 300px;
+  height: 390px;
+  left: 140px;
+  top: 302px;
+  margin-bottom: 30px;
+
+  &-img {
+    width: 100%;
+    height: 162px;
+    background: $grey-1;
+    border-radius: 7px 7px 0 0;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+
+    color: $grey-1;
+    padding: 20px 0px 10px 20px;
+    margin: 0px;
+  }
+
+  &-subtitle {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: $grey-1;
+    padding: 0px 0px 10px 20px;
+    margin: 0px;
+  }
+
+  &-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: $grey-1;
+    padding: 0px 20px 10px 20px;
+    margin: 0px;
+  }
+
+  a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+
+    color: $purple-1;
+    padding: 0px 0px 10px 20px;
+  }
+
+  &-caption {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    letter-spacing: 0.3px;
+    padding: 0px 0px 20px 20px;
+    color: line-2;
+  }
+}
+
+/* Card Type 2 CSS */
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $purple-1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 300px;
+  height: 246px;
+  left: 140px;
+  top: 302px;
+  
+
+  &-title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+
+    /* Grey - 1 */
+    color: $grey-1;
+    padding: 20px 0px 20px 20px;
+    margin: 0px;
+    border-bottom: 1px solid $purple-1;
+  }
+
+  &-subtitle {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: $grey-1;
+    padding: 20px 0px 10px 20px;
+    margin: 0px;
+  }
+
+  &-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: $grey-1;
+    padding: 0px 20px 20px 20px;
+    margin: 0px;
+    border-bottom: 1px solid $purple-1;
+  }
+
+  &-btn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+
+    color: $purple-1;
+    background-color: $white-1;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    padding: 14px 126px 14px 126px;
+    letter-spacing: 0.3px;
+    margin: 0px;
+  }
+}
