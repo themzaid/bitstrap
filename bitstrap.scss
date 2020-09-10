@@ -36,7 +36,6 @@ $yellow-outline: 0px 0px 0px 3px #f6a60988;
 $green-outline: 0px 0px 0px 3px #2ac76988;
 $grey-outline: 0px 0px 0px 3px #4e4c5288;
 
-
 // Buttons
 .btn {
   padding: 14px 25px;
@@ -100,14 +99,14 @@ $grey-outline: 0px 0px 0px 3px #4e4c5288;
   &-line-2 {
     background: $line-2;
   }
+}
 p {
   margin-top: 5px;
   font-family: sans-serif;
   color: #343435;
 }
 
-<<<<<<< HEAD
-.form{
+.form {
   .form-group {
     width: 100%;
     max-width: 400px;
@@ -145,8 +144,8 @@ p {
     }
   }
 }
-.form{
-  &-red{
+.form {
+  &-red {
     .form-group {
       label {
         &:focus {
@@ -167,8 +166,8 @@ p {
     }
   }
 }
-.form{
-  &-yellow{
+.form {
+  &-yellow {
     .form-group {
       label {
         &:focus {
@@ -189,8 +188,8 @@ p {
     }
   }
 }
-.form{
-  &-green{
+.form {
+  &-green {
     .form-group {
       label {
         &:focus {
@@ -211,8 +210,8 @@ p {
     }
   }
 }
-.form{
-  &-grey{
+.form {
+  &-grey {
     .form-group {
       label {
         &:focus {
@@ -235,7 +234,6 @@ p {
 }
 
 // Tables
-
 // Table Styles
 table {
   // Common table styles
@@ -291,10 +289,7 @@ table {
       }
     }
   }
-}
-
-// Table stripe styles
-table {
+  // Table stripe styles
   &.table-stripe {
     tr {
       &:nth-child(odd) {
@@ -303,7 +298,6 @@ table {
     }
   }
 }
-// Navigation
 
 // Cards
 
@@ -389,7 +383,6 @@ table {
   height: 246px;
   left: 140px;
   top: 302px;
-  
 
   &-title {
     font-weight: bold;
@@ -444,7 +437,10 @@ table {
     padding: 14px 126px 14px 126px;
     letter-spacing: 0.3px;
     margin: 0px;
-=======
+  }
+}
+
+// Navbar
 .container-desktop {
   position: absolute;
   top: 0;
@@ -623,6 +619,5 @@ table {
         }
       }
     }
->>>>>>> navigation
   }
 }
